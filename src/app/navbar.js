@@ -4,10 +4,10 @@ export default function Navbar(){
         <p className="text-2xl">Marwan Mohamed</p>
         <div className="flex text-xl gap-x-3">
           <a href="./About-me">AboutMe</a>
-          <a href="./Resume">myResume</a>
+          <a href="./Resume">MyResume</a>
           <a href="./contact">ContactMe</a>
-          <a href="./projects">projects</a>
-          <a href="./home">Home</a>
+          <a href="./projects">Projects</a>
+          <a href="./">Home</a>
         </div>
       </nav>
     );

@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/navbar";
+import Navbar from "./navbar";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,7 +25,13 @@ export default function RootLayout({ children }) {
         <header>
           <Navbar />
         </header>
-        <main className="flex justify-center items-center">{children}</main>
+        <main
+          className="flex justify-around
+          items-center
+          mt-16"
+        >
+          {children}
+        </main>
       </body>
     </html>
   );
