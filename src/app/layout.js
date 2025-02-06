@@ -28,7 +28,8 @@ export default function RootLayout({ children }) {
         <main
           className="flex justify-around
           items-center
-          mt-16"
+          mt-16
+          flex-wrap"
         >
           {children}
         </main>

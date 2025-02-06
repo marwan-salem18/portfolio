@@ -8,10 +8,10 @@ export default function Home() {
         src={pic}
         alt="pic of me"
         className="aspect-square 
-        w-90 rounded-full"
+        md:w-90 w-full rounded-full "
       />
-      <div>
-        <p className="text-6xl">Hi, I'm Marwan Mohamed</p>
+      <div className='mt-20 md:mt-0'>
+        <p className="text-3xl ">Hi, I'm Marwan Mohamed</p>
         <p className="text-2xl">An Aspiring Software Engineer</p>
       </div>
     </>
