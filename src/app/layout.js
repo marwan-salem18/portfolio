@@ -23,13 +23,21 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <header>
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+          />
           <Navbar />
         </header>
         <main
-          className="flex justify-around
+          className="grid
+          justify-around
           items-center
-          mt-16
-          flex-wrap"
+          mt-20
+          grid-cols-12
+          w-full
+          "
         >
           {children}
         </main>
