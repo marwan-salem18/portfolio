@@ -18,7 +18,18 @@ export default function Home() {
     elements.forEach((e) => observer.observe(e))
   }, []); 
   return (
-    <>
+    <div
+      className="grid
+          justify-around
+          items-center
+          mt-20
+          grid-cols-12
+          sm:max-w-screen
+          w-full
+          sm:gap-y-70
+          gap-y-15
+          "
+    >
       <Image
         priority={true}
         src={pic}
@@ -27,7 +38,9 @@ export default function Home() {
         md:w-90 w-full rounded-full transition-all duration-2000 opacity-0 border border-solid whitespace-nowrap"
       />
       <div className="mt-20 md:mt-0 sm:col-span-6 sm:col-start-7 col-span-11 col-start-2 ">
-        <p className="text-4xl sm:text-5xl typewriter">Hi, I'm Marwan Mohamed</p>
+        <p className="text-4xl sm:text-5xl typewriter">
+          Hi, I'm Marwan Mohamed
+        </p>
         <p className="text-3xl typewriter line-2 sm:w-0 sm:overflow-hidden">
           An Aspiring Software Engineer from Egypt
         </p>
@@ -79,6 +92,6 @@ export default function Home() {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
         />
       </div>
-    </>
+    </div>
   );
 }

@@ -22,7 +22,7 @@ export default function footer(){
               className="w-15 dark:invert"
             />
           </a>
-          <a href="https://marwan.salem209@gmail.com">
+          <a href="mailto:marwan.salem209@gmail.com">
             <img
               src="https://img.icons8.com/?size=256&id=P7UIlhbpWzZm&format=png"
               className="w-15"

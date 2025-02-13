@@ -27,16 +27,6 @@ export default function RootLayout({ children }) {
           <Navbar />
         </header>
         <main
-          className="grid
-          justify-around
-          items-center
-          mt-20
-          grid-cols-12
-          sm:max-w-screen
-          w-full
-          sm:gap-y-70
-          gap-y-15
-          "
         >
           {children}
         </main>
