@@ -20,7 +20,6 @@ export default function Home() {
   return (
     <div
       className="grid
-          justify-around
           items-center
           mt-20
           grid-cols-12

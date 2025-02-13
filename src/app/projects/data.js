@@ -1,5 +1,6 @@
 import ticTacToeSample from "./../../../public/Screenshot (38).png";
 import portfolioSample from "./../../../public/Screenshot (39).png";
+import StockTradinSample from "./../../../public/Screenshot (41).png";
 
 export const projects = [
   {
@@ -25,5 +26,6 @@ export const projects = [
   Users can register, manage their virtual portfolios, and access real-time stock prices using the Alpha Vantage API. 
   The application prioritizes robust security measures to ensure user data protection.`,
     learning: `This project was primarily backend-focused, allowing me to deepen my understanding of database management, CRUD operations, ORM (Object-Relational Mapping), user input sanitization, and authentication mechanisms.`,
+    sampleImage: StockTradinSample,
   },
 ];
