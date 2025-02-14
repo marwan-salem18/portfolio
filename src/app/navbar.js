@@ -8,7 +8,7 @@ export default function Navbar(){
         <div className="flex content-center text-sm gap-x-2 sm:text-xl sm:gap-x-4">
           <a href="./">AboutMe</a>
           <a href="./projects">Projects</a>
-          <a href="MARWAN_MOHAMED.pdf" download>
+          <a href="/MARWAN_MOHAMED.pdf" download>
             Resume
           </a>
         </div>
