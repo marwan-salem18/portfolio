@@ -45,9 +45,9 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-20 md:mt-0 sm:col-span-4 sm:col-start-2 col-span-11 col-start-2">
-        <p className="text-3xl">I am currently a second-year student</p>
+        <p className="text-3xl">I am a 20 year-old student</p>
         <p className="text-2xl">
-          pursuing a degree in Computer Science at Helwan University.
+          currently pursuing a degree in Computer Science at Helwan University.
         </p>
       </div>
       <Image
